@@ -1,5 +1,6 @@
 一、
 ```
+在终端运行命令
 npm install
 ```
 二、
@@ -8,9 +9,11 @@ npm install
 ```
 三、
 ```
+在终端运行命令
 webpack
 ```
 四、
 ```
+在终端运行命令
 npm start
 ```
