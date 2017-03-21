@@ -34,3 +34,5 @@ webpack
 ```
 npm start
 ```
+
+* 打开浏览器，输入`localhost:8080`
