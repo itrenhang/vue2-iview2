@@ -23,8 +23,6 @@ node -v
 npm install
 ```
 
-* 在根目录view文件夹下创建`outFile`文件夹
-
 * 在终端运行命令
 
 ```
