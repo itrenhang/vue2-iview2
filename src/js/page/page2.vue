@@ -18,6 +18,7 @@
                 </i-col>
                 <div v-show="!isAjaxOk">
                     <Table :columns="columns1" :data="data1"></Table>
+
                 </div>
             </div>
         </div>
@@ -25,7 +26,7 @@
 </template>
 <script>
 export default {
-         data () {
+        data () {
             return {
                 isAjaxOk:false,
                 columns1: [

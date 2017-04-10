@@ -9,7 +9,7 @@
             </Breadcrumb>
         </div>
         <div class="layout-content">
-            <div class="layout-content-main" v-bind:style="{minHeight:rootHeihgt}">
+            <div class="layout-content-main">
                 <i-col class="demo-spin-col" style="zIndex:1">
                     <Spin fix>
                         <Icon type="load-c" size=18 class="demo-spin-icon-load"></Icon>
@@ -24,13 +24,11 @@
 export default {
          data () {
             return {
-                rootHeihgt:''
             }
         },
         beforeRouteEnter (to, from, next) {
             next(vm => {
-                var h = document.documentElement.clientHeight;
-                vm.$data.rootHeihgt = (h-172)+'px';
+                
             })
         },
     }
